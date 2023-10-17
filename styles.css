@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    /* padding-top: 50px; */
+    padding: 50px 90px;
+}
+
+.space , h1{
+    color:  hsl(300, 43%, 22%);
+}
+.first-svgs{
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    /* margin-left: 100px; */
+}
+
+/* .first-svgs , p{
+    margin-right: 12px;
+} */
+
+.shift-p{
+    padding-left: 20px;
+    color:  hsl(300, 43%, 22%)
+}
+
+.second-svgs{
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    /* margin-left: 140px; */
+}
+
+.third-svgs{
+    display: flex;
+    gap: 3px;
+    align-items: baseline;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 5px;
+    padding: 10px 20px;
+    /* margin-left: 180px; */
+}
+.adjust-p{
+    font-size: 13px;
+    color:  hsl(303, 10%, 53%);
+    padding-top: 40px;
+    white-space: pre-wrap;
+}
+
+.svgs{
+    /* padding-left: 50px; */
+    margin-top: 40px;
+    margin-left: 350px;
+}
+
+.container2{
+    margin: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+    /* Basic box styles */
+.box {
+    width: 210px; /* Set the width of the box */
+    height: 160px; /* Set the height of the box */
+    background-color: hsl(300, 43%, 22%)  ; /* Set the background color */
+    border: 1px solid #000; /* Add a border (optional) */
+    border-radius: 10px;
+    padding: 10px;
+}
+/* Styles for the profile box */
+.profile-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: hsl(300, 43%, 22%);
+    padding: 20px;
+    border: 1px solid #ccc;
+    width:280px;
+    /* margin: 0 auto; */
+    border-radius: 5px;
+}
+
+
+/* Styles for the profile content (picture, name, occupation) */
+.profile-content {
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 10px; */
+}
+
+.profile-image img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+.profile-details  h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color:  hsl(300, 24%, 96%);
+}
+
+.profile-details p{
+    color: hsl(333, 80%, 67%);
+}
+
+/* Styles for the biography */
+.biography {
+    text-align: left;
+}
+
+.biography p{
+    color: hsl(300, 24%, 96%);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+@media (max-width: 477px){
+    .container, .container2{
+        width: 100%; /* Make the container take the full width */
+    max-width: 375px; /* Set a maximum width for screens wider than 375px */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px; /* Add 10px of padding around the content */
+    }
+
+    .container{
+        display: block;
+    }
+
+    .container2{
+     display: block;
+    }
+
+
+    .svgs{
+        /* padding-left: 50px; */
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+
+
+    .profile-box {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: hsl(300, 43%, 22%);
+        padding: 20px;
+        border: 1px solid #ccc;
+        width: 310px;
+        margin: 20px auto;
+        border-radius: 5px;
+        /* margin-left: 20px;
+        margin-top: 20px; */
+
+    }
+
+    .space, h1 {
+    text-align: center;   
+}
+
+    .adjust-p{
+        font-size: 13px;
+        color:  hsl(303, 10%, 53%);
+        padding-top: 40px;
+        white-space: wrap;
+    }
+
+
+}
